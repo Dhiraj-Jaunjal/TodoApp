@@ -1,0 +1,39 @@
+li {
+    text-decoration: none;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #777;
+    list-style: none;
+    text-align: left;
+}
+
+li > span {
+    font-size: 16px;
+    padding: 0 10px;
+    color: #000;
+    display: inline-block;
+    font-size : 18px;
+    text-transform : capitalize;
+    text-overflow: ellipsis;
+    max-width: 45%;
+    font-family: 'Courier New';
+    color: #006d92;
+}
+
+button {
+    padding: 2px 5px;
+    background: #f02626;
+    border: 1px solid #777;
+    border-radius: 10%;
+    color: #fff;
+    text-transform: uppercase;
+    cursor:pointer !important;
+}
+/* input[type="checkbox"] {
+    clip-path: circle(36% at 50% 50%);
+    outline: 2px solid #c00;
+    width: 20px;
+    height: 20px;
+    border: dashed 5px gold;
+    background-color: red;
+} */
